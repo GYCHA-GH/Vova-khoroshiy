@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    
+}
+.html{
+    font-size: 25px;
+}
+h1{
+    font-size: 10rem;
+    line-height: 10rem;
+    font-weight: 900;
+}
+h2{
+    font-size: 5rem;
+    line-height: 5rem;
+}
+p{
+    font-size: 10rem;
+    line-height: 0rem;
+    font-weight: 900;
+}
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 80vh;
+    padding: 0 20px;
+}
+.header-sub-title{
+    width: 100%;
+    padding: 15px 122px;
+    text-align: center;
+    color: white;
+    background-color: #2E292A;
+}
+.header-title{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title-bottom{
+    height: 5rem;
+    overflow: hidden;
+    color: blueviolet;
+    background-color: rgb(255, 255, 255);
+}
+.title-top{
+    height: 5rem;
+    overflow: hidden;
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    
+}
+
+.header-title:hover .title-top{
+    margin-bottom: 8rem;
+}
+.header-title:hover .title-bottom{
+    margin-bottom: 0rem;
+}
+.fame_hall{
+    max-width: 1440px;
+    width: 100%;
+    height: 80vh;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+.fame_hall-card{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+.fame_hall-card-item:hover{
+    flex-grow: 2;
+    height: 0s;
+    
+}
+.fame_hall-card-item{
+    flex-grow: 1;
+    height: 432px;
+    transition: 1.5s all ease;
+}
+.fame_hall-card-item:first-of-type{
+    background: linear-gradient(0deg, rgba(230, 120, 18, 0.49), rgba(230, 120, 18, 0.49)), url(/img/Rectangle24.png);
+}
+.fame_hall-card-item:nth-of-type(2){
+background: linear-gradient(0deg, rgba(39, 177, 221, 0.54), rgba(39, 177, 221, 0.54)), url(/img/Rectangle22.png);
+}
+.fame_hall-card-item:nth-of-type(3){
+background: linear-gradient(0deg, rgba(69, 187, 131, 0.24), rgba(69, 187, 131, 0.24)), url(/img/Rectangle26.png);
+}
+.fame_hall-card-item:nth-of-type(4){
+ background: linear-gradient(0deg, rgba(69, 104, 228, 0.53), rgba(69, 104, 228, 0.53)), url(/img/Rectangle25.png);
+}
+.fame_hall-card-item:last-of-type{
+    background: linear-gradient(0deg, rgba(238, 184, 45, 0.59), rgba(238, 184, 45, 0.59)), url(/img/Rectangle23.png);
+}
+.fame_hall-title{
+    margin-bottom: 25px;
+}
+
+
+.section{
+    max-width: 1440px;
+    width: 100%;
+    height: 80vh;
+    margin: 50px auto;
+    padding: 0 75px;
+}
+.more{
+    font-size: 50px;
+    height: 50px;
+    width: 100%;   
+}
+.more a{
+    padding-right: 30px;
+    font-size: 1.5rem;
+    float: right;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.text{
+   
+    font-size: 75px;  
+    
+}
+.container{
+  display: flex;    
+  flex-wrap: wrap;  
+  height: 1025px;
+  width: 1400px;
+}
+
+div.container{
+    display: flex;
+    justify-content: center;
+}
+.view-first{
+    width: 350px;
+    height: 490px;
+}
+.view{
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+.view .mask{
+    margin-top: 23px;
+    margin-left: 15px;
+    width: 294px;
+    height: 432px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.view img{
+    display: block;
+    position: relative;
+}
+.view h3{
+    margin-top: 5vh;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    font-size: 1.5rem;
+}
+.view p{
+    position: relative;
+    color:white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.view span{
+    color: #47b198;
+}
+.view a.info{
+    margin-top: 20vh;
+    display: inline-block;
+    text-decoration: none;
+    background: #47b198;
+    color: aliceblue;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: 1rem solid #47b198;
+    border-left: 4rem solid #47b198  ;
+    border-right: 4rem solid #47b198  ;
+}
+.view a.info:hover{
+    background: #3d9984;
+}
+.view-first img{
+    transform: all 1s linear;
+    width: 330px;
+    height: 480px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.view-first .mask{
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.view-first h3{
+    margin-top: 10vh;
+    transform: translateY(10px);
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+.view-first p{
+    padding-top: 10vh;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+.view-first a.info{
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.view-first:hover img{
+    transform:  scale(0.9);
+    filter: brightness(25%)
+}
+.view-first:hover .mask{
+    opacity: 2;
+}
+/* это полный пиздец*/
+.view-first:hover h3,
+.view-first:hover p,
+.view-first:hover a.info{
+    opacity: 1;
+    transform:translateY(0);
+}
+.view-first:hover p{
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info{
+    transition-delay: 0.1s;
+}
+
+.chapa{
+    float: right;
+    height: 50px;
+    width: 100%;  
+}
+.text4{
+    padding-right: 30px;
+    font-size: 1.5rem;
+    float: right;
+    font-weight: 500;
+}
+
+

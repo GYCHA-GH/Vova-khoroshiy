@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    
+}
+.html{
+    font-size: 25px;
+}
+h1{
+    margin-top: 150px;
+    font-size: 7rem;
+    line-height: 10rem;
+    font-weight: 900;
+}
+h2{
+    font-size: 4rem;
+    line-height: 5rem;
+}
+p{
+    font-size: 7rem;
+    line-height: 0rem;
+    font-weight: 900;
+}
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+float: left;
+    width: 800px;
+    height: 80vh;
+    padding: 20px 20px;
+}
+.header-sub-title{
+    height: 430px;
+    width: 100%;
+    padding-left: 20px;
+    text-align: center;
+    background-image: url(/img/Rectangle48.png);
+}
+.header-title{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title-bottom{
+    height: 230px;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.title-top{
+    height: 230px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.header-title:hover .title-top{
+    margin-bottom: 30rem;
+}
+.header-title:hover .title-bottom{
+    margin-bottom: 0rem;
+}
+.fame_hall{
+    float: left;
+    max-width: 580px;
+    width: 100%;
+    height: 20vh;
+    margin-left: 32vh;
+}
+.fame_hall-card{
+    position: relative;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+.fame_hall-card-item:hover{
+    flex-grow: 10;
+    height: 0s;
+    
+}
+.fame_hall-card-item{
+    flex-grow: 2;
+    height: 90px;
+    transition: 1s all ease;
+}
+.fame_hall-card-item:first-of-type{
+    background-color: #e37171;
+}
+.fame_hall-card-item:nth-of-type(2){
+background-color: #565656;
+}
+.fame_hall-card-item:nth-of-type(3){
+background-color: #1a57ce;
+}
+.fame_hall-card-item:nth-of-type(4){
+ background-color: #fccd54;
+}
+.fame_hall-card-item:last-of-type{
+    background-color: #7abf62;
+}
+.fame_hall-title{
+    width: 20vh;
+    height: 10vh;
+    font-size: 1.5rem;
+    position: relative;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.tesla{
+    float: right;
+    position: relative;
+    display: flex;
+    width: 620px;
+    height: 80vh;
+    padding-top: 5vh;
+}
+.tesla-title{
+    float: right;
+    margin-top: 10vh;
+    font-size: 6rem;
+    font-weight: 900;
+    width: 620px;
+    height: 100px;
+}
+.container{
+    float: right;
+    border-radius: 45px 0px 0px 45px;
+    background-color: #ececec;
+    padding-top: 4vh;
+    padding-left: 5vh;
+    width: 190px;
+    height: 65vh;
+    margin-left: 400px;
+    overflow: hidden;
+    transition: 1s;
+}
+.container:hover{
+    width: 600px;
+    margin-left: 1px;
+}
+.container h4{
+    font-size: 1.5rem;
+    white-space: nowrap
+}
+.container p{
+    font-size: 1.2rem;
+    margin-top: 7vh;
+    white-space: nowrap;
+    font-weight: 500;
+}
+.container span{
+    color: #323B8C;
+}
+.container a{
+    
+    margin-top: 7vh;
+    margin-left: 35vh;
+    white-space: nowrap;
+    color: #323B8C;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
